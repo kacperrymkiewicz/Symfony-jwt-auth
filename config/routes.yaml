@@ -6,3 +6,8 @@ controllers:
 
 api_login_check:
     path: /api/login_check
+
+view_token:
+    path: /api/token
+    controller: App\Controller\TokenController::viewToken
+    methods: GET
